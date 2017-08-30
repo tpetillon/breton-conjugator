@@ -1,0 +1,11 @@
+{
+  "name": "breton-conjugator",
+  "version": "0.0.1",
+  "description": "Breton language conjugation library",
+  "main": "breton-conjugator.js",
+  "dependencies": {
+    "json-loader": "^0.5.4"
+  },
+  "author": "Thomas Petillon <tpetillon@gmail.com>",
+  "license": "MIT"
+}
