@@ -137,6 +137,11 @@
                 if (matches) {
                     root = matches[1];
                     type = 'regular';
+
+                    if (ending == 'iñ') {
+                        root = root.replace(/^(.*)e(.?)$/, '$1o$2');
+                    }
+
                     break;
                 }
             }
