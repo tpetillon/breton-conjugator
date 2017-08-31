@@ -1,122 +1,146 @@
 {
-    "bezañ" : {
-        "regular" : false,
-        "infinitive" : "bezañ",
-        "pastParticiple" : "bet",
-        "root" : "(irregular)",
-        "present" : {
-            "p1s" : "on",
-            "p2s" : "out",
-            "p3s" : "eo",
-            "p1p" : "omp",
-            "p2p" : "oc’h",
-            "p3p" : "int",
-            "imp" : "eur"
-        },
-        "imperfect" : {
-            "p1s" : "oan",
-            "p2s" : "oas",
-            "p3s" : "oa",
-            "p1p" : "oamp",
-            "p2p" : "oac’h",
-            "p3p" : "oant",
-            "imp" : "oad"
-        },
-        "future" : {
-            "p1s" : "vin",
-            "p2s" : "vi",
-            "p3s" : "vo",
-            "p1p" : "vimp",
-            "p2p" : "viot",
-            "p3p" : "vint",
-            "imp" : "vior"
-        },
-        "presentConditional" : {
-            "p1s" : "befen",
-            "p2s" : "befes",
-            "p3s" : "befe",
-            "p1p" : "befemp",
-            "p2p" : "befec’h",
-            "p3p" : "befent",
-            "imp" : "befed"
-        },
-        "pastConditional" : {
-            "p1s" : "bijen",
-            "p2s" : "bijes",
-            "p3s" : "bije",
-            "p1p" : "bijemp",
-            "p2p" : "bijec’h",
-            "p3p" : "bijent",
-            "imp" : "bijed"
-        },
-        "imperative" : {
-            "p2s" : "bez",
-            "p1p" : "bezomp",
-            "p2p" : "bezit"
-        }
-    },
-    "kaout" : {
-        "regular" : false,
-        "infinitive" : "kaout",
-        "pastParticiple" : "bet",
-        "root" : "(irregular)",
-        "present" : {
+	"bezañ" : {
+		"regular" : false,
+		"infinitive" : "bezañ",
+		"pastParticiple" : "bet",
+		"root" : "(irregular)",
+		"present" : {
+			"p1s" : "on",
+			"p2s" : "out",
+			"p3s" : "eo",
+			"p1p" : "omp",
+			"p2p" : "oc’h",
+			"p3p" : "int",
+			"imp" : "eur"
+		},
+		"imperfect" : {
+			"p1s" : "oan",
+			"p2s" : "oas",
+			"p3s" : "oa",
+			"p1p" : "oamp",
+			"p2p" : "oac’h",
+			"p3p" : "oant",
+			"imp" : "oad"
+		},
+		"preterite" : {
+			"p1s" : "boen",
+			"p2s" : "boes",
+			"p3s" : "boe",
+			"p1p" : "boemp",
+			"p2p" : "boec’h",
+			"p3p" : "boent",
+			"imp" : "boed"
+		},
+		"future" : {
+			"p1s" : "vin",
+			"p2s" : "vi",
+			"p3s" : "vo",
+			"p1p" : "vimp",
+			"p2p" : "viot",
+			"p3p" : "vint",
+			"imp" : "vior"
+		},
+		"presentConditional" : {
+			"p1s" : "befen",
+			"p2s" : "befes",
+			"p3s" : "befe",
+			"p1p" : "befemp",
+			"p2p" : "befec’h",
+			"p3p" : "befent",
+			"imp" : "befed"
+		},
+		"pastConditional" : {
+			"p1s" : "bijen",
+			"p2s" : "bijes",
+			"p3s" : "bije",
+			"p1p" : "bijemp",
+			"p2p" : "bijec’h",
+			"p3p" : "bijent",
+			"imp" : "bijed"
+		},
+		"imperative" : {
+			"p2s" : "bez",
+			"p1p" : "bezomp",
+			"p2p" : "bezit"
+		}
+	},
+	"kaout" : {
+		"regular" : false,
+		"infinitive" : "kaout",
+		"pastParticiple" : "bet",
+		"root" : "(irregular)",
+		"present" : {
 			"p1s" : "am eus",
 			"p2s" : "az peus",
 			"p3sm" : "en deus",
 			"p3sf" : "he deus",
 			"p1p" : "hon eus",
 			"p2p" : "ho peus",
-			"p3p" : "o deus"
-        },
-        "imperfect" : {
+			"p3p" : "o deus",
+			"imp" : "az eus"
+		},
+		"imperfect" : {
 			"p1s" : "am boa",
 			"p2s" : "az poa",
 			"p3sm" : "en doa",
 			"p3sf" : "he doa",
 			"p1p" : "hor boa",
 			"p2p" : "ho poa",
-			"p3p" : "a doa"
-        },
-        "future" : {
+			"p3p" : "a doa",
+			"imp" : "a oa"
+		},
+		"preterite" : {
+			"p1s" : "am boe",
+			"p2s" : "az poe",
+			"p3sm" : "en doe",
+			"p3sf" : "he doe",
+			"p1p" : "hor boe",
+			"p2p" : "ho poe",
+			"p3p" : "o doe",
+			"imp" : "e voe"
+		},
+		"future" : {
 			"p1s" : "am bo",
 			"p2s" : "az po",
 			"p3sm" : "en do",
 			"p3sf" : "he do",
 			"p1p" : "hor bo",
 			"p2p" : "ho po",
-			"p3p" : "o do"
-        },
-        "presentConditional" : {
+			"p3p" : "o do",
+			"imp" : "e vo"
+		},
+		"presentConditional" : {
 			"p1s" : "am befe",
 			"p2s" : "az pefe",
 			"p3sm" : "en befe",
 			"p3sf" : "he befe",
 			"p1p" : "hor befe",
 			"p2p" : "ho pefe",
-			"p3p" : "o befe"
-        },
-        "pastConditional" : {
+			"p3p" : "o befe",
+			"imp" : "e vefe"
+		},
+		"pastConditional" : {
 			"p1s" : "am bije",
 			"p2s" : "az pije",
 			"p3sm" : "en bije",
 			"p3sf" : "he bije",
 			"p1p" : "hor bije",
 			"p2p" : "ho pije",
-			"p3p" : "o bije"
-        },
-        "imperative" : {
-            "p2s" : "az pez",
-            "p1p" : "hor bezet",
-            "p2p" : "ho pezet"
-        }
-    },
-    "gouzout" : {
-        "regular" : false,
-        "infinitive" : "gouzout",
-        "pastParticiple" : "gouezet",
-        "root" : "gouz-, goui- (irregular)",
-        "present" : {
+			"p3p" : "o bije",
+			"imp" : "e vije"
+		},
+		"imperative" : {
+			"p2s" : "az pez",
+			"p1p" : "hor bezet",
+			"p2p" : "ho pezet"
+		}
+	},
+	"gouzout" : {
+		"regular" : false,
+		"infinitive" : "gouzout",
+		"pastParticiple" : "gouezet",
+		"root" : "gouz-, goui- (irregular)",
+		"present" : {
 			"p1s" : "gouzon",
 			"p2s" : "gouzout",
 			"p3s" : "oar",
@@ -124,8 +148,8 @@
 			"p2p" : "gouzoc’h",
 			"p3p" : "gouzont",
 			"imp" : "gouzer"
-        },
-        "imperfect" : {
+		},
+		"imperfect" : {
 			"p1s" : "gouien",
 			"p2s" : "gouies",
 			"p3s" : "gouie",
@@ -133,8 +157,17 @@
 			"p2p" : "gouiec’h",
 			"p3p" : "gouient",
 			"imp" : "gouied"
-        },
-        "future" : {
+		},
+		"preterite" : {
+			"p1s" : "gouezis",
+			"p2s" : "gouejont",
+			"p3s" : "gouezas",
+			"p1p" : "gouejomp",
+			"p2p" : "gouejoc’h",
+			"p3p" : "gouejont",
+			"imp" : "gouejod"
+		},
+		"future" : {
 			"p1s" : "gouiin",
 			"p2s" : "gouii",
 			"p3s" : "gouio",
@@ -142,8 +175,8 @@
 			"p2p" : "gouiot",
 			"p3p" : "gouiint",
 			"imp" : "gouior"
-        },
-        "presentConditional" : {
+		},
+		"presentConditional" : {
 			"p1s" : "goufen",
 			"p2s" : "goufes",
 			"p3s" : "goufe",
@@ -151,8 +184,8 @@
 			"p2p" : "goufec’h",
 			"p3p" : "goufent",
 			"imp" : "goufed"
-        },
-        "pastConditional" : {
+		},
+		"pastConditional" : {
 			"p1s" : "gouijen",
 			"p2s" : "gouijes",
 			"p3s" : "gouije",
@@ -160,67 +193,76 @@
 			"p2p" : "gouijec’h",
 			"p3p" : "gouijent",
 			"imp" : "gouijed"
-        },
-        "imperative" : {
+		},
+		"imperative" : {
 			"p2s" : "gouez",
 			"p1p" : "gouezomp",
 			"p2p" : "gouezit"
-        }
-    },
-    "<template>" : {
-        "regular" : false,
-        "infinitive" : "",
-        "pastParticiple" : "",
-        "root" : "(irregular)",
-        "present" : {
-            "p1s" : "",
-            "p2s" : "",
-            "p3s" : "",
-            "p1p" : "",
-            "p2p" : "",
-            "p3p" : "",
-            "imp" : ""
-        },
-        "imperfect" : {
-            "p1s" : "",
-            "p2s" : "",
-            "p3s" : "",
-            "p1p" : "",
-            "p2p" : "",
-            "p3p" : "",
-            "imp" : ""
-        },
-        "future" : {
-            "p1s" : "",
-            "p2s" : "",
-            "p3s" : "",
-            "p1p" : "",
-            "p2p" : "",
-            "p3p" : "",
-            "imp" : ""
-        },
-        "presentConditional" : {
-            "p1s" : "",
-            "p2s" : "",
-            "p3s" : "",
-            "p1p" : "",
-            "p2p" : "",
-            "p3p" : "",
-            "imp" : ""
-        },
-        "pastConditional" : {
-            "p1s" : "",
-            "p2s" : "",
-            "p3s" : "",
-            "p1p" : "",
-            "p2p" : "",
-            "p3p" : "",
-            "imp" : ""
-        },
-        "imperative" : {
-            "p2s" : "",
-            "p1p" : "",
-            "p2p" : ""
-        }
-    }
+		}
+	},
+	"<template>" : {
+		"regular" : false,
+		"infinitive" : "",
+		"pastParticiple" : "",
+		"root" : "(irregular)",
+		"present" : {
+			"p1s" : "",
+			"p2s" : "",
+			"p3s" : "",
+			"p1p" : "",
+			"p2p" : "",
+			"p3p" : "",
+			"imp" : ""
+		},
+		"imperfect" : {
+			"p1s" : "",
+			"p2s" : "",
+			"p3s" : "",
+			"p1p" : "",
+			"p2p" : "",
+			"p3p" : "",
+			"imp" : ""
+		},
+		"preterite" : {
+			"p1s" : "",
+			"p2s" : "",
+			"p3s" : "",
+			"p1p" : "",
+			"p2p" : "",
+			"p3p" : "",
+			"imp" : ""
+		},
+		"future" : {
+			"p1s" : "",
+			"p2s" : "",
+			"p3s" : "",
+			"p1p" : "",
+			"p2p" : "",
+			"p3p" : "",
+			"imp" : ""
+		},
+		"presentConditional" : {
+			"p1s" : "",
+			"p2s" : "",
+			"p3s" : "",
+			"p1p" : "",
+			"p2p" : "",
+			"p3p" : "",
+			"imp" : ""
+		},
+		"pastConditional" : {
+			"p1s" : "",
+			"p2s" : "",
+			"p3s" : "",
+			"p1p" : "",
+			"p2p" : "",
+			"p3p" : "",
+			"imp" : ""
+		},
+		"imperative" : {
+			"p2s" : "",
+			"p1p" : "",
+			"p2p" : ""
+		}
+	}
 }

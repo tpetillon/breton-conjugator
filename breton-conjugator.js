@@ -25,6 +25,7 @@
     const tenses = [
         'present',
         'imperfect',
+        'preterite',
         'future',
         'presentConditional',
         'pastConditional',
@@ -53,6 +54,15 @@
             'p2p' : 'ec’h',
             'p3p' : 'ent',
             'imp' : 'er'
+        },
+        'preterite' : {
+            'p1s' : 'is',
+            'p2s' : 'out',
+            'p3s' : 'as',
+            'p1p' : 'jomp',
+            'p2p' : 'joc’h',
+            'p3p' : 'jont',
+            'imp' : 'jod'
         },
         'future' : {
             'p1s' : 'in',
