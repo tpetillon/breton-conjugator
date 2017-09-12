@@ -117,7 +117,7 @@
         if (irregularVerbs[cleanedInput] !== undefined) {
             return {
                 result: {
-                    type: 'irregular',
+                    type: [ 'irregular' ],
                     forms: irregularVerbs[cleanedInput]
                 }
             };
@@ -125,21 +125,22 @@
 
         var verb = cleanedInput;
         var root = undefined;
-        var type = undefined;
+        var type = [];
 
         if (irregularRoots[verb] !== undefined) {
             root = irregularRoots[verb];
-            type = 'irregular root';
+            type = [ 'irregular root' ];
         } else {
             for (var i = 0; i < infinitiveEndings.length; i++) {
                 var ending = infinitiveEndings[i];
                 var matches = verb.match('^(.+)' + ending + '$');
                 if (matches) {
                     root = matches[1];
-                    type = 'regular';
+                    type = [ 'regular', '"-' + ending + '" ending' ];
 
                     if (ending == 'iñ') {
                         root = root.replace(/^(.*)e(.?)$/, '$1o$2');
+                        type.push('last "e" changed to "o"');
                     }
 
                     break;
@@ -147,7 +148,14 @@
             }
         }
 
+        if (root === undefined) {
+            root = verb;
+            type = [ 'regular', 'no ending' ];
+        }
+
         if (root !== undefined) {
+            type.push('automatic');
+
             var result = { type: type, forms: {} };
 
             for (var t = 0; t < tenses.length; t++) {
